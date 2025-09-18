@@ -1,0 +1,122 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Corpo ===== */
+body {
+    background: linear-gradient(135deg, #ffd6e8, #ffe6f0); /* degradê rosa suave */
+    color: #3b3c3c;
+    line-height: 1.6;
+}
+
+/* ===== Header e Menu ===== */
+header {
+    background: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu ol {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #d63384; /* rosa mais forte */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #a61e4d;
+}
+
+/* ===== Apresentação ===== */
+.apresentacao {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.apresentacao h1 {
+    font-size: 2.5rem;
+    color: #a61e4d;
+    margin-bottom: 20px;
+}
+
+.apresentacao img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== Seções ===== */
+.quemsou, .trabalhos, .video1 {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.quemsou h2, .trabalhos h4, .video1 {
+    color: #d63384;
+    margin-bottom: 15px;
+}
+
+/* ===== Imagens dos trabalhos ===== */
+.trabalhos img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.trabalhos img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== Vídeo ===== */
+video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== Rodapé ===== */
+footer {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 2px solid #ffd6e8;
+}
+
+footer h3 {
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+.instagram img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.instagram img:hover {
+    transform: scale(1.2);
+}
+
+.container-rodape p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #555;
+}
